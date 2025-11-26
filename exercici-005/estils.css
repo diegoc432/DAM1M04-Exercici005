@@ -112,3 +112,7 @@ body {
 .card.ease-in { transition-timing-function: ease-in; }
 .card.ease-out { transition-timing-function: ease-out; }
 .card.ease-in-out { transition-timing-function: ease-in-out; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
