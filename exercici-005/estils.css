@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Loader amb @keyframes */
+/* Loader + @keyframes */
 .loader {
     width: 50px;
     height: 50px;
@@ -251,4 +251,30 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+
+/* Animació bounce + @keyframes */
+.bounce-box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    animation: bounce 2s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-30px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
