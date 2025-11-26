@@ -124,3 +124,19 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
+
+/* Millor targetes */
+.card {
+    border: 1px solid #e2e8f0;
+    padding: 1.5rem;
+}
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: var(--dark-color);
+    opacity: 0.8;
+}
