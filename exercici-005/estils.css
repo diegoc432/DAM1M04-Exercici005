@@ -198,4 +198,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.card-img {
+    height: 150px;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    transition: all 0.5s ease;
+}
+
+.card:hover .card-img {
+    background: linear-gradient(45deg, var(--accent-color), var(--nature-green));
+}
+
+/* Timing functions específicas */
+.timing-linear { transition-timing-function: linear; }
+.timing-ease { transition-timing-function: ease; }
+.timing-ease-in { transition-timing-function: ease-in; }
+.timing-ease-out { transition-timing-function: ease-out; }
+.timing-ease-in-out { transition-timing-function: ease-in-out; }
 
