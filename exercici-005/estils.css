@@ -215,3 +215,24 @@ h1, h2, h3, h4, h5, h6 {
 .timing-ease-out { transition-timing-function: ease-out; }
 .timing-ease-in-out { transition-timing-function: ease-in-out; }
 
+
+/* Secondary + trasitions */
+.secondary-menu {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.secondary-menu a {
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.secondary-menu a:hover {
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+
