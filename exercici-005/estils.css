@@ -9,6 +9,7 @@
     --primary-color: #2563eb;
     --secondary-color: #dc2626;
     --accent-color: #f59e0b;
+    --nature-green: #16a34a;
     --light-color: #f8fafc;
     --dark-color: #1e293b;
 }
@@ -106,16 +107,7 @@ body {
 }
 
 
-/* Timing functions diferentes */
-.card.linear { transition-timing-function: linear; }
-.card.ease { transition-timing-function: ease; }
-.card.ease-in { transition-timing-function: ease-in; }
-.card.ease-out { transition-timing-function: ease-out; }
-.card.ease-in-out { transition-timing-function: ease-in-out; }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
 
 /* Estats actius navegació */
 .nav-links a.active {
