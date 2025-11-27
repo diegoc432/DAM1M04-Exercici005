@@ -522,19 +522,3 @@ h3 { font-size: 1.5rem; }
         padding: 0.5rem;
     }
 }
-
-/* Imágenes de placeholder */
-.img-1 {
-    background-image: url('assets/img/Machu_Picchu.jpg');
-    background-color: #e2e8f0; 
-}
-
-.img-2 {
-    background-image: url('assets/img/Sagrada_Familia.jpg');
-    background-color: #e2e8f0; 
-}
-
-.img-3 {
-    background-image: url('assets/img/japon_monte.jpg');
-    background-color: #e2e8f0; 
-}
